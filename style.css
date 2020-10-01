@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  width: 95vw;
+  height: 95vh;
+  overflow: hidden;
+  background: #9c91f0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.board {
+  border: 2px solid rgb(231, 22, 22);
+  box-shadow: 0 0 7px black;
+  background-color: darksalmon;
+  background-color: magenta;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
